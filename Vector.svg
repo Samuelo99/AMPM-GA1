@@ -1,0 +1,143 @@
+<svg width="100%" height="100%" viewBox="0 0 160 160"
+     xmlns="http://www.w3.org/2000/svg" 
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+     
+  <desc>
+    Sahasrara 1st layer - non rotating
+    
+    original work by Manuela: https://openclipart.org/detail/302554/rotating-sahasrara
+    
+    Revised to try to get a smooth animation. It is smooth in Firefox only.
+    
+    Jay Nick
+    STEAMcoded.org
+  </desc>
+     
+  <defs>
+   <path id="k" d="m80 80 c -44,-22 -11,-44 0,-80 11,33 44,60 0,80 z" />
+
+    <mask id="m1">
+      <rect width="160" height="160" style="fill:white;" />
+     <path d="m80 80 c -44,-22 -11,-44 0,-80 11,33 44,60 0,80 z" style="fill:black;" />
+    </mask>
+    <symbol id="rad" style="stroke:#fff;stroke-width:0.2px;">
+      <use xlink:href="#k" fill="#ff0000" />
+      <use transform="rotate(7.347,80,80)"  fill="#ff1f00" xlink:href="#k" />
+	  <use transform="rotate(14.694,80,80)"  fill="#ff1f00" xlink:href="#k" />
+	  <use transform="rotate(22.041,80,80)"  fill="#ff3e00" xlink:href="#k" />
+	  <use transform="rotate(29.388,80,80)"  fill="#ff5e00" xlink:href="#k" />
+	  <use transform="rotate(36.735,80,80)"  fill="#ff7d00" xlink:href="#k" />
+	  <use transform="rotate(44.082,80,80)"  fill="#ff9c00" xlink:href="#k" />
+	  <use transform="rotate(51.429,80,80)"  fill="#fb0" xlink:href="#k" />
+	  <use transform="rotate(58.776,80,80)"  fill="#ffdb00" xlink:href="#k" />
+	  <use transform="rotate(66.122,80,80)"  fill="#fffa00" xlink:href="#k" />
+	  <use transform="rotate(73.469,80,80)"  fill="#e5ff00" xlink:href="#k" />
+	  <use transform="rotate(80.816,80,80)"  fill="#c6ff00" xlink:href="#k" />
+	  <use transform="rotate(88.163,80,80)"  fill="#a7ff00" xlink:href="#k" />
+	  <use transform="rotate(95.510,80,80)"  fill="#87ff00" xlink:href="#k" />
+	  <use transform="rotate(102.857,80,80)"  fill="#68ff00" xlink:href="#k" />
+	  <use transform="rotate(110.204,80,80)"  fill="#49ff00" xlink:href="#k" />
+	  <use transform="rotate(117.551,80,80)"  fill="#2aff00" xlink:href="#k" />
+	  <use transform="rotate(124.898,80,80)"  fill="#0aff00" xlink:href="#k" />
+	  <use transform="rotate(132.245,80,80)"  fill="#00ff15" xlink:href="#k" />
+	  <use transform="rotate(139.592,80,80)"  fill="#00ff34" xlink:href="#k" />
+	  <use transform="rotate(146.939,80,80)"  fill="#00ff53" xlink:href="#k" />
+	  <use transform="rotate(154.286,80,80)"  fill="#00ff72" xlink:href="#k" />
+	  <use transform="rotate(161.633,80,80)"  fill="#00ff92" xlink:href="#k" />
+	  <use transform="rotate(168.980,80,80)"  fill="#00ffb1" xlink:href="#k" />
+	  <use transform="rotate(176.327,80,80)"  fill="#00ffd0" xlink:href="#k" />
+	  
+      <g style="mask:url(#m1)">
+	    <use transform="rotate(183.673,80,80)"  fill="#00ffef" xlink:href="#k" />
+	    <use transform="rotate(191.020,80,80)"  fill="#00efff" xlink:href="#k" />
+	    <use transform="rotate(198.367,80,80)"  fill="#00d0ff" xlink:href="#k" />
+	    <use transform="rotate(205.714,80,80)"  fill="#00b1ff" xlink:href="#k" />
+	    <use transform="rotate(213.061,80,80)"  fill="#0092ff" xlink:href="#k" />
+	    <use transform="rotate(220.408,80,80)"  fill="#0072ff" xlink:href="#k" />
+	    <use transform="rotate(227.755,80,80)"  fill="#0053ff" xlink:href="#k" />
+	    <use transform="rotate(235.102,80,80)"  fill="#0034ff" xlink:href="#k" />
+	    <use transform="rotate(242.449,80,80)"  fill="#0015ff" xlink:href="#k" />
+	    <use transform="rotate(249.796,80,80)"  fill="#0a00ff" xlink:href="#k" />
+	    <use transform="rotate(257.143,80,80)"  fill="#2a00ff" xlink:href="#k" />
+	    <use transform="rotate(264.490,80,80)"  fill="#4900ff" xlink:href="#k" />
+	    <use transform="rotate(271.837,80,80)"  fill="#6800ff" xlink:href="#k" />
+	    <use transform="rotate(279.184,80,80)"  fill="#8700ff" xlink:href="#k" />
+	    <use transform="rotate(286.531,80,80)"  fill="#a700ff" xlink:href="#k" />
+	    <use transform="rotate(293.878,80,80)"  fill="#c600ff" xlink:href="#k" />
+	    <use transform="rotate(301.224,80,80)"  fill="#e500ff" xlink:href="#k" />
+	    <use transform="rotate(308.571,80,80)"  fill="#ff00fa" xlink:href="#k" />
+	    <use transform="rotate(315.918,80,80)"  fill="#ff00db" xlink:href="#k" />
+	    <use transform="rotate(323.265,80,80)"  fill="#f0b" xlink:href="#k" />
+	    <use transform="rotate(330.612,80,80)"  fill="#ff009c" xlink:href="#k" />
+	    <use transform="rotate(337.959,80,80)"  fill="#ff007d" xlink:href="#k" />
+	    <use transform="rotate(345.306,80,80)"  fill="#ff005e" xlink:href="#k" />
+	    <use transform="rotate(352.653,80,80)"  fill="#ff003e" xlink:href="#k" />
+      </g>
+    </symbol>
+  
+    <symbol id="ganz" viewBox="0 0 160 160">
+      <use id="r0" xlink:href="#rad" />
+      <use id="r1" xlink:href="#r0" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r2" xlink:href="#r1" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r3" xlink:href="#r2" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r4" xlink:href="#r3" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r5" xlink:href="#r4" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r6" xlink:href="#r5" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r7" xlink:href="#r6" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r8" xlink:href="#r7" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r9" xlink:href="#r8" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r10" xlink:href="#r9" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r11" xlink:href="#r10" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r12" xlink:href="#r11" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r13" xlink:href="#r12" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r14" xlink:href="#r13" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r15" xlink:href="#r14" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r16" xlink:href="#r15" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r17" xlink:href="#r16" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r18" xlink:href="#r17" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r19" xlink:href="#r18" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r20" xlink:href="#r19" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r21" xlink:href="#r20" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r22" xlink:href="#r21" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r23" xlink:href="#r22" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r24" xlink:href="#r23" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r25" xlink:href="#r24" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r26" xlink:href="#r25" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r27" xlink:href="#r26" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r28" xlink:href="#r27" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r29" xlink:href="#r28" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r30" xlink:href="#r29" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r31" xlink:href="#r30" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r32" xlink:href="#r31" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r33" xlink:href="#r32" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r34" xlink:href="#r33" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r35" xlink:href="#r34" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r36" xlink:href="#r35" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r37" xlink:href="#r36" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r38" xlink:href="#r37" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r39" xlink:href="#r38" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r40" xlink:href="#r39" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r41" xlink:href="#r40" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r42" xlink:href="#r41" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r43" xlink:href="#r42" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r44" xlink:href="#r43" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r45" xlink:href="#r44" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r46" xlink:href="#r45" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r47" xlink:href="#r46" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r48" xlink:href="#r47" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r49" xlink:href="#r48" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r50" xlink:href="#r49" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r51" xlink:href="#r50" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+      <use id="r52" xlink:href="#r51" transform="rotate(11,80,80) translate(8,8) scale(0.9)" />
+    </symbol>    
+  </defs>
+
+  <style type="text/css"><![CDATA[
+    @keyframes rotate {from {transform:rotate(0deg)} to {transform:rotate(360deg)}}
+    .animate {animation:rotate 10s linear infinite;transform-origin:80px 80px;}
+  ]]>
+  </style>
+
+  <use xlink:href="#rad" />
+
+</svg>
